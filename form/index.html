@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form class="form" action="">
+    <div class="form__head">
+      <div class="form__caption">
+        <strong class="form__user-name">Harold Finch</strong>
+        <span class="form__name">Your Total</span>
+      </div>
+      <div class="form__price">
+        $88
+      </div>
+    </div>
+    <div class="form__body">
+      <div class="form__element">
+        <div class="form__element-label">Credit card number </div>
+        <input class="form__element-ctrl" data-mask="0000 0000 0000 0000" type="text">
+      </div>
+      <div class="form__row">
+        <div class="form__element form__element--row-element form__element--stretch">
+          <div class="form__element-label">Expiration date</div>
+          <select class="form__element-ctrl" name="" id="">
+            <option value="">Month</option>
+          </select>
+        </div>
+
+        <div class="form__element form__element--row-element">
+          <div class="form__element-label">&nbsp; </div>
+          <select class="form__element-ctrl" name="" id="">
+            <option value="">Year</option>
+          </select>
+        </div>
+      </div>
+
+
+      <div class="form__row">
+        <div class="form__element form__element--cvv form__element--row-element">
+          <div class="form__element-label ">CVV</div>
+          <input class="form__element-ctrl" data-mask="000">
+
+
+        </div>
+
+        <div class="form__element form__element--row-element">
+          <div class="form__element-label">&nbsp; </div>
+          <span class="form__cvv-description">3 or 4 digits - <a class="form__cvv-link" href="">view example</a></span>
+
+        </div>
+      </div>
+      <hr class="hr">
+    </div>
+    <div class="form__foot">
+      <input class="button form--button" type="submit" value="Pay">
+      <div class="form__submit-description">
+        <a class="form__submit-link" href="">Cancel order</a>
+      </div>
+    </div>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./js/jquery.mask.min.js"></script>
+</body>
+
+</html>
