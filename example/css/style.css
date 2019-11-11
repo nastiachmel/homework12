@@ -161,6 +161,7 @@ input[type="email"]:invalid{
     text-align: center;
     margin-top: -35px;
     margin-bottom: 15px;
+    width: 100%;
   }
   .author{
     padding-left: 20px;
