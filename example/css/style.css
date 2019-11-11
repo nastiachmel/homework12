@@ -1,9 +1,7 @@
 .mainer{
-
   max-width: 1500px;
   margin: 0 auto;
 }
-
 
 header{
   text-align: center;
@@ -20,7 +18,7 @@ header .title-text{
   display: inline-block;
   margin: 15px 0 50px 0;
 }
-main{
+.main{
   display: flex; 
   margin-left: 120px;
   justify-content: space-between;
@@ -75,10 +73,10 @@ input[type="email"]:invalid{
   font-size: 18px;
   padding-bottom: 15px;
 }
-footer{
+.footer{
   background-color: #262626;
   padding: 23px 120px 23px 120px;
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 242px;
@@ -111,78 +109,69 @@ footer{
   font-weight: 300;
   font-size: 15px;
   color: #b9b9b9;
- 
-}
+ }
 @media screen and (max-width:2560px){
-  main{
+  .main{
     margin: 30px;
   }
- 
   .info-element{
     width: 35%;
   }
- 
-  }
+}
 @media screen and (max-width:1000px){
-  main{
+  .main{
     margin: 30px;
   }
-  footer{
+  .footer{
     padding: 23px 30px;
   }
   .author{
     padding-right: 0;
   }
-  }
+}
 
 @media screen and (max-width:860px){
-main{
-  margin: 20px;
-}
-footer{
-padding: 23px 20px;
-}
+  .main{
+    margin: 20px;
+  }
+  .footer{
+    padding: 23px 20px;
+  }
 }
 @media screen and (max-width:660px){
-
-  footer{
+  .footer{
     padding: 23px 25px;
   }
-  
   .form{
     margin-right: 90px;
   }
   .author{
     padding-left: 20px;
   }
+}
+@media screen and (max-width:500px){
+  .form{
+    margin: 0;
   }
-  @media screen and (max-width:500px){
-   .form{
-      margin: 0;
-    }
-    
-    main{
-      flex-direction: column-reverse;
-      align-items: center;
-    }
-    .info-element{
-      text-align: center;
-      margin-top: -35px;
-      margin-bottom: 15px;
-  
-    }
-    
-    .author{
-      padding-left: 20px;
-    }
-   
-    }
-    @media screen and (max-width:320px){
-      body{
-        width: 320px;
-      }
-        .title-name{
-          word-break: break-word;
-        }
-         
-          }
+  .main{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .info-element{
+    text-align: center;
+    margin-top: -35px;
+    margin-bottom: 15px;
+  }
+  .author{
+    padding-left: 20px;
+    word-break: break-all;
+  }
+}
+@media screen and (max-width:320px){
+  body{
+    width: 320px;
+  }
+  .title-name{
+    word-break: break-word;
+  }
+}
