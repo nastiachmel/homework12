@@ -3,15 +3,15 @@
   margin: 0 auto;
 }
 
-header{
+.header{
   text-align: center;
   padding-top: 75px;
 }
-header .title-name{
+.header .title-name{
   font-weight: bold;
   font-size: 90px;  
 }
-header .title-text{
+.header .title-text{
   font-weight: 300;  
   font-size: 17px;
   max-width: 346px;
