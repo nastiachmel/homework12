@@ -81,7 +81,7 @@ footer{
    display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 241px;
+  margin-top: 242px;
 }
  
 .label{
@@ -111,8 +111,18 @@ footer{
   font-weight: 300;
   font-size: 15px;
   color: #b9b9b9;
-  padding-right: 50px; 
+ 
 }
+@media screen and (max-width:2560px){
+  main{
+    margin: 30px;
+  }
+ 
+  .info-element{
+    width: 35%;
+  }
+ 
+  }
 @media screen and (max-width:1000px){
   main{
     margin: 30px;
