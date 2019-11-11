@@ -77,7 +77,7 @@ input[type="email"]:invalid{
 }
 footer{
   background-color: #262626;
- padding: 23px 0 23px 120px;
+  padding: 23px 120px 23px 120px;
    display: flex;
   align-items: center;
   justify-content: center;
